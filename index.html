@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Criar Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Meu Blog</h1>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>Criar novo post</h2>
+
+      <form id="form-post">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" required>
+
+        <label for="conteudo">Conteúdo</label>
+        <textarea id="conteudo" rows="5" required></textarea>
+
+        <button type="submit">Publicar</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Post publicado</h2>
+
+      <h3 id="renderizar-titulo"></h3>
+      <p id="renderizar-conteudo"></p>
+    </section>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
