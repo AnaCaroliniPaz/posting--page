@@ -49,7 +49,7 @@ posting--page/
 ## ▶ Como executar o projeto
 
 1. Clone o repositório:
-git clone [https://github.com/SEU-USUARIO/posting--page](https://github.com/AnaCaroliniPaz/posting--page)
+git clone https://github.com/AnaCaroliniPaz/posting--page
 
 2. Abra o arquivo:
 index.html
